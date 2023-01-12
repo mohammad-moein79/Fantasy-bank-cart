@@ -1,0 +1,116 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-transform: capitalize;
+}
+
+body {
+     background: #051736;
+     font-family: isans;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     overflow: hidden;
+}
+
+body::after {
+     content: "";
+     width: 629px;
+     height: 628px;
+     border-radius: 50%;
+     background: linear-gradient(to top left, #e55777, #e3a89d);
+     position: absolute;
+     top: -224px;
+     left: -104px;
+}
+
+.glass {
+     width: 750px;
+     height: 400px;
+     background-color: rgb(255 255 255 / 23%);
+     border-radius: 10px;
+     box-sizing: border-box;
+     backdrop-filter: blur(13px);
+     cursor: pointer;
+     position: relative;
+     top: 116px;
+     z-index: 1;
+     border: none;
+     border-top: 1px solid rgb(255 255 255 / 19%);
+     border-left: 1px solid rgb(255 255 255 / 19%);
+     box-shadow: 0 0 5px rgb(255 255 255 / 42%);
+     transition: all ease 0.5s;
+}
+
+.glass:hover {
+     transform: translate(5px, -10px);
+}
+
+.bank {
+     color: #fff;
+     position: absolute;
+     font-size: 30px;
+     top: 21px;
+     right: 37px;
+     text-transform: uppercase;
+}
+
+.img {
+     width: 50px;
+     position: absolute;
+     top: 170px;
+     left: 50px;
+}
+
+.img2 {
+     width: 61px;
+     position: absolute;
+     top: 165px;
+     left: 120px;
+}
+
+.cvv2 {
+     position: absolute;
+     top: 53px;
+     right: 16px;
+     font-size: 23px;
+     color: #fff;
+     text-transform: uppercase;
+}
+
+.number {
+     position: absolute;
+     top: 238px;
+     left: 50px;
+     color: #fff;
+     font-size: 35px;
+     word-spacing: 100px;
+     font-family: 'Roboto Slab', serif;
+     font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.Expiration-date {
+     position: absolute;
+     color: #fff;
+     left: 294px;
+     bottom: 40px;
+     font-size: 15px;
+}
+
+.holder {
+     position: absolute;
+     bottom: 40px;
+     left: 50px;
+     color: #fff;
+     font-size: 17px;
+}
+
+.img3 {
+     width: 90px;
+     position: absolute;
+     right: 50px;
+     bottom: 40px;
+}
